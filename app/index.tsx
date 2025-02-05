@@ -13,7 +13,7 @@ import { getBackgroundColorAsync } from 'expo-system-ui';
 export default function HomeScreen() {
   return (
     <View style={GlobalStyles.containerLogin}>
-      <Text style={{padding: 30, fontSize: 30}}>Inicio de Sesion</Text>
+      <Text style={{padding: 25, fontSize: 30, fontWeight:"bold"}}>INICIO DE SESIÓN</Text>
       <Text style={GlobalStyles.textosNormales}>Usuario</Text>
 
     <TextInput style={GlobalStyles.textInputs} placeholder='Introduce tu Usuario'></TextInput>

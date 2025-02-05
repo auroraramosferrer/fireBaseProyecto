@@ -17,25 +17,27 @@ export const GlobalStyles = StyleSheet.create({
         paddingLeft: 10,
     },
     textosNormales:{
-        padding: 10,
-        fontSize: 20,
+        padding: 15,
+        fontSize: 22,
+        fontWeight:"bold"
+        
     },
     viewBotones:{
         flexDirection: 'row',
         justifyContent: 'space-around'
     },
     botones:{
-        backgroundColor: Color.black,
+        backgroundColor: Color.blue,
         margin: 10,
-        width: 100,
-        height: 40,
+        width: 110,
+        height: 45,
         borderRadius: 40,
         justifyContent: "center",
         alignItems: "center",
         
     },
     textoBotones:{
-        color: Color.lightBlue,
+        color: Color.superWhite,
         alignSelf: "center",
         paddingLeft: 1
         
